@@ -24,6 +24,9 @@
 /* ================================= */
 /* :::::::::: 1. General ::::::::::: */
 /* ================================= */
+img{
+  loading:"lazy";
+}
 
 html, body {
   font-family: 'Open Sans', sans-serif!important;
