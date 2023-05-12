@@ -443,7 +443,8 @@ position: absolute;
 
 .swiper-container .bg {
     height: 100%;
-    background-size: cover;
+    background-size:cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
@@ -2453,7 +2454,6 @@ footer .copyright {
 
 @media only screen and  (max-width: 768px) {
 
-
   .contact input[type="submit"] {
     width: 100%;
   }
@@ -2536,7 +2536,16 @@ footer .copyright {
 }
 
 @media only screen and (max-width: 540px) {
-
+  .swiper-container .bg {
+    height: 100%;
+    background-size:180px;
+    border-radius: 90%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.bg{
+  border-radius: 50%;
+}
   .contact-form {
     width: 100%;
     padding: 0;
